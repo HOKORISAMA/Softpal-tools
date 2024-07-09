@@ -140,7 +140,7 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) != 3:
-        print("Usage: python script.py <archive_file> <output_directory>")
+        print("Usage: ExPac.py <archive_file> <output_directory>")
         sys.exit(1)
 
     archive_file = sys.argv[1]
